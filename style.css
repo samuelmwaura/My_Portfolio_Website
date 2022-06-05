@@ -1,0 +1,122 @@
+body{
+    background-color: #020d1f;
+    color: white;
+    overflow-y: scroll;
+}
+header{
+    height: 70px;
+    text-align: center;  
+    border: 1px;  
+    border-bottom: 1px;  
+    border-bottom-style: solid;  
+    border-color: purple;
+    top:0px;
+    left: 0px;
+    position: fixed;
+    width:100%;
+    z-index:3;    
+    background:linear-gradient(-45deg, #2d0068,#020d1f);
+}
+header ul{
+list-style: none;
+float: right;
+padding: 10px;
+}
+header ul li{
+   display: inline;
+   margin: 20px;   
+   font-size:1.5em;
+   background-color: purple;
+   padding: 5px;
+   border: 2px;
+   border-left-style: solid;
+   border-radius:20px;
+}
+#welcomeSection{
+    height:100vh;
+    width: 100%;    
+    left: 0px;
+    position: relative;
+    
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+#welcomeSection h1{
+    font-size: 5em;
+    margin-bottom:5px;
+}
+
+#welcomeSection img{
+position: absolute;
+z-index:-1;
+left: 775px;
+bottom: 0px;
+height: 100%;
+width:51%;
+}
+
+#welcomeSection em{
+    position: relative;
+    animation-name: moveTop;
+    animation-duration:01s;
+}
+
+@keyframes moveTop{
+    0%{
+       color:  #020d1f;
+       bottom: 300px;
+       
+    }
+    25%{
+        color: #031738;
+        bottom: 0px;
+    }
+    50%{
+        color: #0754cf;
+        bottom: 150px;
+
+    }75%{
+       color: #6f97d6;
+       
+    }
+    100%{
+        bottom:180px;
+    }
+}
+
+#welcomeSection p{
+    position: relative;
+    font-size: 1.5em;
+    animation-name:moveParagraphDown;
+    animation-duration: 1.5s;
+}
+@keyframes moveParagraphDown{
+0%{
+  bottom:-300px;
+}
+50%{
+   bottom:0px
+}
+100%{
+   
+}
+}
+
+.links{
+    text-decoration: none;
+    color: inherit;
+}
+
+#profile{
+    background-color: #2d0068;
+    height:70vw;
+}
+#contacts{
+ text-align: center;
+}
+.contact{    
+    float: left;
+    width: 33%;
+}

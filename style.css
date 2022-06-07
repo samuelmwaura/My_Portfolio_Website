@@ -110,13 +110,147 @@ width:51%;
 }
 
 #profile{
-    background-color: #2d0068;
+    background-color: #240053;    
+    /*background-color: #2d0068;*/
     height:70vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+#profile h2, #technologies h2{
+    margin-top: 2px;
+    font-size: 3em;
+    position: relative;
+    font-weight:80;
+    text-align: center;
+    padding-top: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#webprogrammingStatement, #webdesignStatement{
+text-align: right;
+margin-right:300px;
+font-size: 30px;
+position: relative;
+left: 120px;
+}
+
+#webdesignStatement{
+    left:-500px;
+    bottom: 100px;
+}
+
+#webdesignStatement{
+    z-index:1;
+}
+
+#profile #webProgramming{
+    height: 400px;
+}
+
+#profile #webProgrammingImg, #ruby, #webDesign,#webDevelopment{
+    border-radius: 50px;
+    height:22em;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+    width: 600px;   
+    
+}
+
+#profile #ruby{
+    bottom: 200px;
+    display: none;     
+}
+
+#profile #webDesign, #webDevelopment{
+    width: 34em;
+    height:28.55em;
+    left: 850px;
+    bottom:350px;
+}
+
+#webDevelopment{
+    display: none;
+}
+
+#profile #webProgramming{
+    background-color: #240053;
+}
+
+#technologies{
+    background-color: #240053;
+    margin-top:2px;
+    height:600px;
+}
+
+#technologies h2{
+    margin-left:15px;
+    text-align: left;
+    margin-bottom:80px;
+}
+
+#technologies Div{
+    text-align: left;
+    border-radius: 50px;
+}
+#unorderedList{
+    position: relative;
+    left: 100px;
+}
+
+.logo{
+    width: 100px;
+    border-radius:30px;
+    margin-left:10px ;
+}
+
+#rubylogo{
+   position:relative;
+   left:540px;
+   width: 180px;
+   bottom: 5px;
+   border-top-left-radius:100px;
+}
+
+#javalogo{
+    position:relative;
+    left:80px;
+    bottom:220px;
+    width: 130px;
+ }
+
+#CSSlogo{
+    width: 300px;
+
+}
+#technologies #unorderedList{
+position: relative;
+width:7em;
+left: 900px;
+bottom: 430px;
+font-size:22px;
+}
+
 #contacts{
  text-align: center;
+ padding-top: 20px;
 }
 .contact{    
     float: left;
     width: 33%;
+    text-align: center;
+}
+.contact .material-icons{
+    font-size: 70px;
+}
+#whatsapp{
+    color: green;
+}
+#telegram{
+    color: #3180f7;
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
 }

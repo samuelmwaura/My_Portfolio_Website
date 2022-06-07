@@ -3,13 +3,14 @@
     <head>
        <title>Samuel Mwaura Portfolio.</title>
        <link rel="stylesheet" href="./style.css">
-       <link rel="stylesheet" href="./script.js">
+       <link rel="shortcut icon" href="/favicon.ico">
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <header>
             <nav><ul>
                 <li><a href="#profile" class="links"> Profile</a></li>
-                <li><a href="#Technologies" class="links">Technologies</a></li>
+                <li><a href="#technologies  " class="links">Technologies</a></li>
                 <li><a href="#contacts" class="links">Contacts</a></li>
             </ul></nav>
         </header>
@@ -21,21 +22,58 @@
             </div>
         </section>
         <section id="profile">
-        Here is the profile 
+            <h2>Profile</h2>
+            <div id="webProgramming">                
+                <div id="webprogrammingStatement"><h3>I am excellently skilled in:</h3>
+                    <span class="material-icons md-dark">check</span> <em>Backend/logical Web programming <br>  using the  dynamic, scalable and <br> precise, Ruby on Rails <br> Language.</em> 
+                </div>
+                <img src="./web-deve.jpeg" alt="Image of webprogramming" id="webProgrammingImg">
+                <img src="./Ruby.webp" alt="Image of Ruby Icon" id="ruby">
+
+                <div id="webdesignStatement">
+                    <div> <span class="material-icons md-dark">check</span> <em>User interface and experience Design.<br> Bringing in dynamicity in the website <br>  displays and content and user actions <br> response.</em> </div>       
+                </div>
+                <img src="./web-design3.jpeg" alt="webdesignStatement" id="webDesign">
+                <img src="./web-development-programming.jpg" alt="Web Development Image" id="webDevelopment">
+            </div>
+        
+        </section>
+        <section id="technologies">
+            <h2>Technologies.</h2>
+            <div>
+                <img src="./redGem.jpg" alt="Ruby Gem." id="rubylogo" class="logo">
+                <img src="./Javascript.png" alt="javascript Logo" id="javalogo"  class="logo">
+                <img src="./Css.png" alt="webdesignStatement" id="CSSlogo" class="logo">
+            </div>
+            <div>
+                <ul id="unorderedList">
+                    <li>JavaScript. </li>
+                    <p>For web interacivity setting and seamless user interaction</p> 
+                    <li>CSS </li>
+                    <p> For improving site's aesthetics </p> 
+                    <li>Ruby</li>
+                    <p>Backend and logical achievement.</p>
+                </ul>
+            </div>
         </section>
         <section id="contacts">
             <div class="contact">
-                <p>Gmail</p>
-                <p>samuelmwaura081@gmail</p>
+                <span class="material-icons">mail</span>
+                <p><a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">Gmail</p>
+                <p>samuelmwaura081@gmail</p></a>
             </div>
             <div class="contact">
-                <p>Whatsapp</p>
-                <p>+254110081542</p>
+                <span class="material-icons" id="whatsapp"> whatsapp</span>
+                <p><a href="https://www.whatsapp.com/" target="_blank">Whatsapp</p>
+                <p>+254110081542</p></a>
             </div>
-            <div class="contact"    >
-                <p>Telegram</p>
-                <p>@samMwaura</p>
+            <div class="contact" >
+                <span class="material-icons" id="telegram">telegram</span>
+                <p><a href="https://web.telegram.org" target="_blank">Telegram</p>
+                <p>@samMwaura</p></a>
             </div>
-        </section>        
+            <p>Reach out to me for efficiency....</p>
+        </section>    
+        <script type="text/javascript" src="./script.js"></script>      
     </body>
 </html>
